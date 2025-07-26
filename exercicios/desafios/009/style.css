@@ -1,0 +1,23 @@
+body{ 
+    background-color: gray;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+img{
+    text-align: center;
+}
+a {
+    align-self: center;
+}
+p{
+    text-align: center;
+}
+iframe{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    alignment-baseline: central;
+}

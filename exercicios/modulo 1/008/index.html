@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>imagem dinaminca</h1>
+    <picture>
+        <source media="(max-width: 1600px)" srcset="foto-p.png" type="image/png">
+        <source media="(max-width: 2100px)" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>audios</h1>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/Duty Calls - Rod Kim.mp3" type="audio/mpeg">
+        <source src="midia/Duty Calls - Rod Kim.ogg" type="audio/ogg">
+        <source src="midia/Duty Calls - Rod Kim.wav" type="audio/wav">
+    </audio>
+    
+    <h1>videos locais</h1>
+    <video controls width="1000" poster="foto-p.png">
+        <source src="midia/videos/videopica.mp4" type="video/mp4">
+        <source src="midia/videos/videopica.webm" type="video/webm">
+    </video>
+    
+    <h1>videos do youtube</h1>
+    <iframe width="1000" height="1000" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=RIknO1yjNzgXOXow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    
+</body>
+</html>

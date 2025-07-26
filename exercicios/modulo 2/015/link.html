@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* seletores
+    # - ID
+    . - class
+    : - pseudo class
+    :: - pseudo element
+    > - children
+    */
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+        color: red;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    a:visited{
+        color: darkred;
+
+    }
+    a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    a:active {
+        color: yellow;
+    }
+    a::after{
+        content: '[link]';
+        text-decoration: none;
+        font-weight: normal;
+        color: rgb(255, 0, 0);
+    }
+    a::before{
+        content: '-->';
+    }
+</style>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/@supertf" target="_blank">github</a></li>
+        <li><a href="https://www.youtube.com/@reversao" target="_blank">youtube</a></li>
+        <li><a href="https://www.youtube.com/@alanzoka" target="_blank">site</a></li>
+    </ul>
+
+    <h1><a href="teste.html"></a></h1>
+</body>
+</html>
