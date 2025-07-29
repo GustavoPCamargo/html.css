@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        border-collapse: collapse;
+        text-align: center;
+        padding: 5px;
+    }
+    th, td{
+        border: 1px solid black;
+        padding: 5px;
+    }
+    thead, tr.media{
+        background-color: gray;
+        color: white;
+    }
+    tr.media{
+        text-align: left;
+    }
+    td.fiadaputa{
+        font-weight: bold;
+        text-align: center;
+    }
+    td.mt{
+        text-align: left;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="colgroup">area</th>
+                <th rowspan="2" scope="colgroup">deciplina</th>
+                <th colspan="2" scope="colgroup">notas</th>
+                <th rowspan="2" scope="colgroup">media</th>
+            </tr>
+            <tr>
+                <th scope="colgroup">nota 1</th>
+                <th scope="colgroup">nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2" scope="rowgroup">exatas</th>
+                <td class="mt">matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="mt">fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="media">
+                <th colspan="4" scope="row">media</th>
+                <td class="fiadaputa">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">humanas</th>
+                <td class="mt">historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="mt">ingles</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="media">
+                <th colspan="4" scope="row">media</th>
+                <td class="fiadaputa">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

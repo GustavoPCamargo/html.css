@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+    }
+    caption{
+        font-size: 1.5em;
+        text-decoration: wavy;
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    thead, tfoot{
+        background-color: gray;
+        color: white;
+    }
+    thead > tr > th{
+        position: sticky;
+        top: -1px;
+        background-color: gray;
+    }
+    tbody > tr:nth-child(2n) {
+        background-color: lightcyan;
+    }
+    td{
+        text-align: right;
+    }
+    th{
+        text-align: left;
+    }
+</style>
+<body>
+    <h1>tabela mais maior</h1>
+    <!--
+    ANATOMIA TABELAS GRANDE
+    TABLE
+        CAPTION
+        THEAD
+            TR TD TH
+        TBODY
+            TR TD TH
+        TFOOT
+            TR TD TH
+    -->
+    <table>
+        <caption>pessoas transantes de cada estado</caption>
+        <thead>
+            <th scope="col">estado</th>
+            <th scope="col" style="width: 100px;">população</th>
+        </thead>
+        <tfoot>
+            <th scope="row">total de habitantes</th>
+            <td>8 000 000 000</td>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td>45 409 615</td>
+            </tr>
+            <tr>
+                <td>tilambocano</td>
+                <td>1 389 398</td>
+            </tr>
+            <tr>
+                <td>rolandia</th>
+                <td>434 678 098</td>
+            </tr>
+            <tr>
+                <td> Uberlândia</td>
+                <td>45 409 615</td>
+            </tr>
+            <tr>
+                <td>tilambocano</td>
+                <td>23 098 456</td>
+            </tr>
+            <tr>
+                <td>rolandia</th>
+                <td>434 678 098</td>
+            </tr>
+            <tr>
+                <td>são paulo</td>
+                <td>45 409 615</td>
+            </tr>
+            <tr>
+                <td>tilambocano</td>
+                <td>15 782 398</td>
+            </tr>
+            <tr>
+                <td>rolandia</th>
+                <td>434 678 098</td>
+            </tr>
+            <tr>
+                <td>são paulo</td>
+                <td>45 409 615</td>
+            </tr>
+            <tr>
+                <td>tilambocano</td>
+                <td>173 387 387</td>
+            </tr>
+            <tr>
+                <td>rolandia</th>
+                <td>434 678 098</td>
+            </tr>
+            <tr>
+                <td>são paulo</td>
+                <td>45 409 615</td>
+            </tr>
+            <tr>
+                <td>tilambocano</td>
+                <td>45 450 450</td>
+            </tr>
+            <tr>
+                <td>rolandia</th>
+                <td>434 678 098</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusantium vero, nam sit assumenda inventore magni quaerat blanditiis? Praesentium aspernatur temporibus ex! Laudantium, repellendus tenetur quia repellat ratione perspiciatis et! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam laborum officiis maiores amet commodi nemo eius sint ipsam, velit iure placeat exercitationem, consequuntur ullam atque distinctio repellat, impedit quia mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime culpa consectetur enim placeat quos quibusdam sit officiis doloribus necessitatibus, atque odio autem quaerat aut blanditiis eaque optio veritatis odit quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nobis sed! Corporis perferendis nulla fugit laboriosam, reiciendis quia ad optio illum temporibus quae ab, praesentium, architecto dignissimos. Eos, necessitatibus totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque perferendis dolorum molestiae voluptatem exercitationem impedit itaque nobis alias ducimus. Animi doloremque quaerat reprehenderit totam, atque illum sit dolorum voluptatum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusantium vero, nam sit assumenda inventore magni quaerat blanditiis? Praesentium aspernatur temporibus ex! Laudantium, repellendus tenetur quia repellat ratione perspiciatis et! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam laborum officiis maiores amet commodi nemo eius sint ipsam, velit iure placeat exercitationem, consequuntur ullam atque distinctio repellat, impedit quia mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime culpa consectetur enim placeat quos quibusdam sit officiis doloribus necessitatibus, atque odio autem quaerat aut blanditiis eaque optio veritatis odit quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nobis sed! Corporis perferendis nulla fugit laboriosam, reiciendis quia ad optio illum temporibus quae ab, praesentium, architecto dignissimos. Eos, necessitatibus totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque perferendis dolorum molestiae voluptatem exercitationem impedit itaque nobis alias ducimus. Animi doloremque quaerat reprehenderit totam, atque illum sit dolorum voluptatum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusantium vero, nam sit assumenda inventore magni quaerat blanditiis? Praesentium aspernatur temporibus ex! Laudantium, repellendus tenetur quia repellat ratione perspiciatis et! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam laborum officiis maiores amet commodi nemo eius sint ipsam, velit iure placeat exercitationem, consequuntur ullam atque distinctio repellat, impedit quia mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime culpa consectetur enim placeat quos quibusdam sit officiis doloribus necessitatibus, atque odio autem quaerat aut blanditiis eaque optio veritatis odit quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nobis sed! Corporis perferendis nulla fugit laboriosam, reiciendis quia ad optio illum temporibus quae ab, praesentium, architecto dignissimos. Eos, necessitatibus totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque perferendis dolorum molestiae voluptatem exercitationem impedit itaque nobis alias ducimus. Animi doloremque quaerat reprehenderit totam, atque illum sit dolorum voluptatum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusantium vero, nam sit assumenda inventore magni quaerat blanditiis? Praesentium aspernatur temporibus ex! Laudantium, repellendus tenetur quia repellat ratione perspiciatis et! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam laborum officiis maiores amet commodi nemo eius sint ipsam, velit iure placeat exercitationem, consequuntur ullam atque distinctio repellat, impedit quia mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime culpa consectetur enim placeat quos quibusdam sit officiis doloribus necessitatibus, atque odio autem quaerat aut blanditiis eaque optio veritatis odit quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nobis sed! Corporis perferendis nulla fugit laboriosam, reiciendis quia ad optio illum temporibus quae ab, praesentium, architecto dignissimos. Eos, necessitatibus totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque perferendis dolorum molestiae voluptatem exercitationem impedit itaque nobis alias ducimus. Animi doloremque quaerat reprehenderit totam, atque illum sit dolorum voluptatum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusantium vero, nam sit assumenda inventore magni quaerat blanditiis? Praesentium aspernatur temporibus ex! Laudantium, repellendus tenetur quia repellat ratione perspiciatis et! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam laborum officiis maiores amet commodi nemo eius sint ipsam, velit iure placeat exercitationem, consequuntur ullam atque distinctio repellat, impedit quia mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime culpa consectetur enim placeat quos quibusdam sit officiis doloribus necessitatibus, atque odio autem quaerat aut blanditiis eaque optio veritatis odit quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nobis sed! Corporis perferendis nulla fugit laboriosam, reiciendis quia ad optio illum temporibus quae ab, praesentium, architecto dignissimos. Eos, necessitatibus totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque perferendis dolorum molestiae voluptatem exercitationem impedit itaque nobis alias ducimus. Animi doloremque quaerat reprehenderit totam, atque illum sit dolorum voluptatum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusantium vero, nam sit assumenda inventore magni quaerat blanditiis? Praesentium aspernatur temporibus ex! Laudantium, repellendus tenetur quia repellat ratione perspiciatis et! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam laborum officiis maiores amet commodi nemo eius sint ipsam, velit iure placeat exercitationem, consequuntur ullam atque distinctio repellat, impedit quia mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime culpa consectetur enim placeat quos quibusdam sit officiis doloribus necessitatibus, atque odio autem quaerat aut blanditiis eaque optio veritatis odit quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nobis sed! Corporis perferendis nulla fugit laboriosam, reiciendis quia ad optio illum temporibus quae ab, praesentium, architecto dignissimos. Eos, necessitatibus totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque perferendis dolorum molestiae voluptatem exercitationem impedit itaque nobis alias ducimus. Animi doloremque quaerat reprehenderit totam, atque illum sit dolorum voluptatum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusantium vero, nam sit assumenda inventore magni quaerat blanditiis? Praesentium aspernatur temporibus ex! Laudantium, repellendus tenetur quia repellat ratione perspiciatis et! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam laborum officiis maiores amet commodi nemo eius sint ipsam, velit iure placeat exercitationem, consequuntur ullam atque distinctio repellat, impedit quia mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime culpa consectetur enim placeat quos quibusdam sit officiis doloribus necessitatibus, atque odio autem quaerat aut blanditiis eaque optio veritatis odit quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nobis sed! Corporis perferendis nulla fugit laboriosam, reiciendis quia ad optio illum temporibus quae ab, praesentium, architecto dignissimos. Eos, necessitatibus totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque perferendis dolorum molestiae voluptatem exercitationem impedit itaque nobis alias ducimus. Animi doloremque quaerat reprehenderit totam, atque illum sit dolorum voluptatum.</p>
+</body>
+</html>

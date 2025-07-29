@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        width: fit-content;
+        height: fit-content;
+        border-collapse: collapse;
+
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>grupo</th>
+                <th scope="colgroup">nomes</th>
+                <th colspan="2" scope="colgroup">filmes</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th scope="row">total</th>
+                <td colspan="4">1 000 </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="2" scope="rowgroup">muires</th>
+                <td>ana</td>
+                <td>alien</td>
+                <td>vingadores</td>
+            </tr>
+            <tr>
+                <td>beatriz</td>
+                <td>hulk</td>
+                <td>inception</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">homios</th>
+                <td>bruno</td>
+                <td>gladiador</td>
+                <td>clube da luta</td>
+            </tr>
+            <tr>
+                <td>gustavo</td>
+                <td>django</td>
+                <td>homem aranha 2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
