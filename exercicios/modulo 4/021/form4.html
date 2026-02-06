@@ -6,8 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
+    <form action="" method="post">
         <fieldset>
+            <legend>bagulhos importantes</legend>
             <p>
                 <label for="inome">nome</label>
                 <input type="text" name="nome" id="inome" minlength="5" maxlength="20" required>
@@ -18,7 +19,7 @@
             </p>
             <p>
                 <label for="itel">telefone</label>
-                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\d{4,5}-\d{4,5}$" required>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\d{4,5}-\d{4,5}$" placeholder="xxxx-xxxx" required>
             </p>
         </fieldset>
 
