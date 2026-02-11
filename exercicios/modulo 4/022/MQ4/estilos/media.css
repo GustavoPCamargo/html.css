@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/*media querries*/
+
+/*TDB:
+
+576px (landscape phones)
+768px (tablets)
+992px (desktops/laptops)
+1200px+ (large monitors)
+
+*/
+
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main{
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    img#cllr{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#print{
+        display: block;
+    }
+    img#PC{
+        display: none;
+    }
+    img#TV{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#cllr{
+        display: none;
+    }
+    img#tablet{
+        display: block;
+    }
+    img#print{
+        display: none;
+    }
+    img#PC{
+        display: none;
+    }
+    img#TV{
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#cllr{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#print{
+        display: none;
+    }
+    img#PC{
+        display: block;
+    }
+    img#TV{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    
+    main{
+        width: 700px;
+    }
+    
+    img#cllr{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#print{
+        display: none;
+    }
+    img#PC{
+        display: none;
+    }
+    img#TV{
+        display: block;
+    }
+}
