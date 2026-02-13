@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" >
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/midia.css">
+</head>
+<body>
+    <div id="imagem"></div>
+    <main>
+        <h1>Login</h1>
+        <p>seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+        <br>
+        <form action="estilo/cadastro.php" method="post">
+            <label for="email"><span class="material-symbols-outlined">person</span></label>    
+            <input type="text" name="email" id="email" required placeholder="Digite seu e-mail"> <br>
+            <label for="senha"><span class="material-symbols-outlined">key</span></label>
+            <input type="password" name="senha" id="senha" required minlength="8" placeholder="Digite sua senha"> <br>
+            <input type="submit" value="Entrar" id="entrar"> <br>
+        </form>
+        <form action="estilo/cadastro.php" method="post">
+            <input type="submit" value="Esqueci minha senha" id="esqueci">
+        </form>
+    </main>
+</body>
+</html>
