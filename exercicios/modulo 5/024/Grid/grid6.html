@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div.container{
+        border: 3px solid blue;
+        display: grid;
+        grid-template: repeat(3, 100px) / repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    div.item{
+        border: 3px solid red;
+        padding: 5px;
+    }
+
+    div#caixa1{
+        grid-area: 1 / 1 / 2 / -1;
+    }
+
+    div#caixa2{
+        grid-area: 2 / 1 / -1 / 3;
+    }
+
+    div#caixa3{
+        grid-area: 2 / 3 / -1 / -1;
+    }
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="item" id="caixa1">Caixa 1</div>
+        <div class="item" id="caixa2">Caixa 2</div>
+        <div class="item" id="caixa3">Caixa 3</div>
+    </diV>
+</body>
+</html>

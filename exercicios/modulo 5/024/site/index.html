@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    div.container{
+        border: 5px solid red;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+
+        grid-template: 2fr 1fr 5fr 5fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+
+        text-align: center;
+    }
+
+    div.item{
+        border: 5px solid blue;
+    }
+
+    div#topo{
+        grid-row: 1 / 2;
+        grid-column: 1 / -1;
+    }
+
+    div#menu{
+        grid-row: 2 / 3;
+        grid-column: 1 / -1;
+    }
+
+    div#principal{
+        grid-row: 3 / 5;
+        grid-column: 1 / 5;
+    }
+
+    div#secundario{
+        grid-row: 3 / 5;
+        grid-column: 5 / -1;
+    }
+
+    div#rodape{
+        grid-row: 5 / -1;
+        grid-column: 1 / -1;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="item" id="topo"><h1>topo</h1></div>
+        <div class="item" id="menu"><h1>menu</h1></div>
+        <div class="item" id="principal"><h1>principal</h1></div>
+        <div class="item" id="secundario"><h1>secundario</h1></div>
+        <div class="item" id="rodape"><h1>rodape</h1></div>
+    </div>
+</body>
+</html>
